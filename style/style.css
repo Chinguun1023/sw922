@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: whitesmoke;
+  scroll-behavior: smooth;
+  transition: 5s;
+}
+
+nav .gol .k label #check:checked ~ .big {
+  display: grid;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: 0%;
+  z-index: 100;
+}
+nav .gol {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .gol .k {
+  width: 10%;
+  display: none;
+}
+nav .gol .k label {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+nav .gol .k label i {
+  color: #fff;
+}
+nav .gol .k label input {
+  display: none;
+  text-align: center;
+}
+nav .gol .k label .big {
+  display: none;
+  margin-top: 690px;
+  position: fixed;
+  left: 0%;
+  width: 100%;
+  height: 100vh;
+  z-index: 11;
+  background-color: #244f69;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(4, 8%);
+}
+nav .gol .k label .big p {
+  grid-column: 3/4;
+  margin-top: 60px;
+  font-size: 26px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+nav .gol .k label .big p:hover {
+  color: #1d3557;
+}
+nav .gol .logo a {
+  color: #a8dadc;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav .gol .logo a span {
+  color: #1d3557;
+}
+nav .gol ul {
+  width: 50%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 26%);
+  font-size: 17px;
+  font-weight: 400;
+}
+nav .gol ul li {
+  color: #fff;
+}
+nav .gol ul li a {
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+nav .gol ul li:hover {
+  color: #a8dadc;
+}
+
+.ehlel {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(302deg, #1d3557 46%, #457b9d 100%);
+  display: flex;
+}
+.ehlel .ug {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ehlel .ug .ugnuud {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.ehlel .ug .ugnuud h3 {
+  font-weight: 200;
+}
+.ehlel .ug .ugnuud h1 {
+  font-size: 50px;
+}
+.ehlel .ug .ugnuud h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.ehlel .ug .ugnuud h2 span {
+  color: #457b9d;
+}
+.ehlel .ug .ugnuud button {
+  border-color: #457b9d;
+  border-radius: 20px;
+  background-color: #457b9d;
+  font-size: 15px;
+  color: #fff;
+  height: 40px;
+  width: 100px;
+}
+.ehlel .ug .ugnuud button:hover {
+  color: #003e64;
+  background-color: #7ca1b8;
+}
+.ehlel .zurag {
+  width: 50%;
+  height: 100%;
+}
+.ehlel .zurag img {
+  margin-left: 35%;
+  margin-top: 71px;
+  height: 88%;
+}
+
+@media screen and (max-height: 110vh) {
+  nav {
+    background-image: linear-gradient(302deg, #1d3557 46%, #457b9d 100%);
+  }
+}
+@media screen and (max-width: 980px) {
+  nav .gol ul {
+    display: none;
+  }
+  nav .gol .k {
+    display: flex;
+  }
+}
+@media screen and (max-width: 900px) {
+  .ehlel .zurag {
+    display: none;
+  }
+  .ehlel .ug {
+    width: 100%;
+  }
+}
+.about {
+  width: 100%;
+  height: 80vh;
+  background-color: whitesmoke;
+  margin-top: 10px;
+}
+.about .eh {
+  width: 100%;
+  height: 13%;
+  margin-bottom: 30px;
+}
+.about .eh .deer {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+.about .eh .door {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  color: #003e64;
+}
+.about .eh .door .zuraas {
+  width: 4.7%;
+  height: 9.255%;
+  border: radius 24.8em;
+  background-color: black;
+}
+.about .eh .door p {
+  color: #003e64;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.about .tog {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: whitesmoke;
+}
+.about .tog .baruun {
+  width: 50%;
+  height: 100%;
+  margin-top: -90px;
+}
+.about .tog .baruun img.neg {
+  width: 30%;
+  height: 50%;
+  margin-left: 30px;
+  rotate: 100px;
+}
+.about .tog .baruun img.gurav {
+  width: 40%;
+  height: 43%;
+}
+.about .tog .baruun img.dorov {
+  width: 30%;
+  height: 50%;
+}
+.about .tog .baruun img.hoyor {
+  width: 30%;
+  height: 50%;
+}
+.about .tog .zuun {
+  width: 50%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(10, 10%);
+}
+.about .tog .zuun h3 {
+  grid-row: 3/4;
+  margin-top: 7px;
+}
+.about .tog .zuun h6 {
+  grid-row: 4/6;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: lighter;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 980px) {
+  .about {
+    height: 100vh;
+  }
+  .about .tog {
+    display: block;
+  }
+  .about .tog .zuun {
+    width: 100%;
+    margin: auto;
+    margin-top: -180px;
+    padding: 70px;
+    height: 55%;
+  }
+  .about .tog .zuun h3 {
+    grid-row: 1/2;
+  }
+  .about .tog .baruun {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+  }
+  .about .tog .baruun img {
+    height: 40%;
+  }
+  .about .tog .baruun img.dorov {
+    width: 20%;
+  }
+  .about .tog .baruun img.neg {
+    width: 25%;
+  }
+  .about .tog .baruun img.hoyor {
+    width: 28%;
+  }
+  .about .tog .baruun img.gurav {
+    display: none;
+  }
+  nav .gol .k label .big {
+    height: 110vh;
+    margin-top: 1400px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .about .tog {
+    display: block;
+  }
+  .about .tog .zuun {
+    width: 100%;
+    margin: -80px;
+    text-align: justify;
+    margin-left: 0px;
+  }
+  .about .tog .baruun {
+    display: none;
+  }
+}
+.chadvar {
+  width: 100%;
+  height: 80vh;
+  background-color: #282a2c;
+  margin-top: 70px;
+}
+.chadvar .skill {
+  width: 100%;
+  height: 13%;
+  padding-top: 80px;
+}
+.chadvar .skill .de {
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  text-align: justify;
+  font-family: "Ubuntu", sans-serif;
+}
+.chadvar .skill .de h1 {
+  font-weight: 500;
+}
+.chadvar .skill .do {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  gap: 8px;
+}
+.chadvar .skill .do p {
+  color: #457b9d;
+  font-size: 17px;
+  font-weight: 400;
+}
+.chadvar .skill .do .za {
+  width: 5%;
+  height: 10%;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 10;
+}
+.chadvar .my {
+  width: 100%;
+  height: 55%;
+  margin-top: 130px;
+  display: flex;
+}
+.chadvar .my .ug {
+  width: 55%;
+  height: 50%;
+  padding-left: 35px;
+  padding-right: 50px;
+  text-align: justify;
+}
+.chadvar .my .ug h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+.chadvar .my .ug h6 {
+  font-size: 15px;
+  color: whitesmoke;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.chadvar .my .medleg {
+  width: 45%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  gap: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  grid-template-rows: repeat(6, 10%);
+}
+.chadvar .my .medleg h2 {
+  color: white;
+}
+.chadvar .my .medleg .ll {
+  height: 5px;
+  width: 90%;
+  background: lightgrey;
+  position: relative;
+}
+.chadvar .my .medleg .ll::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: crimson;
+}
+.chadvar .my .medleg .ll::before {
+  width: 10%;
+}
+.chadvar .my .medleg .neg::before {
+  width: 10%;
+}
+.chadvar .my .medleg .hoyor::before {
+  width: 15%;
+}
+
+@media screen and (max-width: 970px) {
+  .chadvar {
+    height: 120vh;
+  }
+  .chadvar .my {
+    display: block;
+  }
+  .chadvar .my .ug {
+    width: 100%;
+  }
+  .chadvar .my .ug h6 {
+    font-size: 18px;
+  }
+  .chadvar .my .medleg {
+    margin-top: 0%;
+    width: 100%;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+@media screen and (max-width: 685px) {
+  .chadvar {
+    height: 130vh;
+  }
+  .chadvar .my .medleg {
+    margin-top: 150px;
+    width: 100%;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+footer {
+  width: 100%;
+  height: 30px;
+  text-align: justify;
+  text-align: center;
+  margin-top: 15px;
+}
+footer p span {
+  color: #003e64;
+}/*# sourceMappingURL=style.css.map */
